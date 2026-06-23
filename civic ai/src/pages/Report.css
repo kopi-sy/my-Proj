@@ -1,0 +1,98 @@
+*{
+  box-sizing:border-box;
+}
+
+.report-page{
+  min-height:100vh;
+  background:#f1f5f9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px 20px;
+}
+
+.report-card{
+  width:100%;
+  max-width:800px;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.report-card h1{
+  text-align:center;
+  color:#1e3a8a;
+  margin-bottom:30px;
+  font-size:3rem;
+}
+
+.report-card input,
+.report-card textarea,
+.report-card select{
+  width:100%;
+  padding:15px;
+  margin-top:10px;
+  margin-bottom:20px;
+  border:1px solid #cbd5e1;
+  border-radius:10px;
+  background:white;
+  color:#334155;
+  font-size:1rem;
+}
+
+.report-card input::placeholder,
+.report-card textarea::placeholder{
+  color:#94a3b8;
+}
+
+.report-card textarea{
+  min-height:140px;
+  resize:none;
+}
+
+.report-card button{
+  padding:12px 20px;
+  border:none;
+  border-radius:10px;
+  background:#1e40af;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  margin-right:10px;
+  transition:0.3s;
+}
+
+.report-card button:hover{
+  background:#1e3a8a;
+}
+
+.success-card{
+  margin-top:30px;
+  padding:20px;
+  background:#dcfce7;
+  border:1px solid #86efac;
+  border-radius:12px;
+}
+
+.success-card h3{
+  color:#15803d;
+  margin-bottom:10px;
+}
+
+.success-card p{
+  color:#166534;
+  margin:8px 0;
+}
+
+@media(max-width:768px){
+
+  .report-card{
+    padding:25px;
+  }
+
+  .report-card h1{
+    font-size:2rem;
+  }
+
+}

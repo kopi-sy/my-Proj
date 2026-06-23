@@ -1,0 +1,14 @@
+nav{
+    background-color:rgb(12, 74, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    
+}
+nav button{
+    padding: 10px 15px;
+}
+nav h1{
+    color: beige;
+}

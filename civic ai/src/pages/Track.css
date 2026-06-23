@@ -1,0 +1,75 @@
+.track-container{
+  min-height:100vh;
+  background:#f1f5f9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px;
+}
+
+.track-card{
+  width:700px;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.track-card h1{
+  text-align:center;
+  color:#1e3a8a;
+  margin-bottom:25px;
+}
+
+.track-card input{
+  width:100%;
+  padding:14px;
+  border:1px solid #cbd5e1;
+  border-radius:10px;
+  margin-bottom:15px;
+  background:white;
+  color:black;
+}
+
+.track-card button{
+  width:100%;
+  padding:14px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.track-card button:hover{
+  background:#1d4ed8;
+}
+
+.result-card{
+  margin-top:25px;
+  background:#eff6ff;
+  padding:20px;
+  border-radius:12px;
+  border:1px solid #bfdbfe;
+}
+
+.result-card h2{
+  color:#2563eb;
+  margin-bottom:15px;
+}
+
+.result-card p{
+  margin:10px 0;
+  color:#334155;
+}
+
+.not-found{
+  margin-top:20px;
+  padding:15px;
+  background:#fee2e2;
+  color:#dc2626;
+  border-radius:10px;
+  text-align:center;
+  font-weight:bold;
+}
